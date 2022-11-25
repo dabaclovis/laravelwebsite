@@ -15,4 +15,9 @@ class ArticlesController extends Controller
     {
         return view('articles.laravel');
     }
+
+    public function builder()
+    {
+        return view('articles.builder');
+    }
 }

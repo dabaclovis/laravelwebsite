@@ -58,6 +58,22 @@
             };
             xhr.send();
         }
+        var two = document.querySelector('#two');
+        two.addEventListener('click',twoFun);
+        function twoFun(){
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET','{{ url("/builder") }}', true);
+            xhr.onload = function()
+            {
+                if (xhr.status == 200) {
+                    var data = xhr.responseText;
+                    // console.log(data);
+                    var show = document.querySelector('#all');
+                    show.innerHTML = data;
+                };
+            };
+            xhr.send();
+        }
     </script>
 
   </body>

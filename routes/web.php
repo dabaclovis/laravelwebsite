@@ -25,4 +25,5 @@ Route::controller(PagesController::class)
 Route::controller(ArticlesController::class)->group(function(){
     Route::get('git','git')->name('art.git');
     Route::get('laravel','laravel')->name('art.laravel');
+    Route::get('builder','builder')->name('art.builder');
 });
