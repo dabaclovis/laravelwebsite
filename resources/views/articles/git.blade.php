@@ -6,15 +6,26 @@
         <p><i class="fa fa-star w3-text-indigo" aria-hidden="true"></i> Agenda</p>
 
         <ol>
-            <li>What is Version Control</li>
-            <li>why is Git</li>
-            <li>Types of version control</li>
-            <li>what is git bash</li>
-            <li>Configure git</li>
-            <li>Type of files</li>
-            <li>Git init observation</li>
-            <li>some basic git commands</li>
+            <div class=" row">
+                <div class="col">
+                    <li>What is Version Control</li>
+                    <li>why is Git</li>
+                    <li>Types of version control</li>
+                </div>
+                <div class="col">
+                    <li>what is git bash</li>
+                    <li>Configure git</li>
+                    <li>Type of files</li>
+                </div>
+                <div class="col">
+                    <li>Git init observation</li>
+                    <li>some basic git commands</li>
+                    <li>Thank You</li>
+                </div>
+            </div>
+
         </ol>
+        <hr>
         <p>1.) Version Control are tools that help software team manage changes in source code over time</p>
         <p> For most almost all software projects, the source code is like the crown KING - a precious asset whose
             value must be protected.
@@ -50,7 +61,7 @@
         <ul>
             <li><i>git init</i></li>
             <li><i>git add</i> single file </li>
-            <li><i>git add .</i>  multiple files</li>
+            <li><i>git add .</i> multiple files</li>
             <li><i>git commit -m 'value' => message</i></li>
             <li><i>git remote add origin url of remote github repository</i></li>
             <li><i>git push -u origin main or master</i></li>
